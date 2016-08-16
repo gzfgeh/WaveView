@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="theme.customer_progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:padding">10dip</item>  //图片与左边距的距离
+        <item name="android:textSize">20sp</item>      //message字体的大小
+        <item name="android:textColor">@android:color/white</item>  //message字体的颜色
+    </style>
+</resources>
